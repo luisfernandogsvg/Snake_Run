@@ -1,0 +1,120 @@
+@charset "UTF-08";
+
+/* 
+*
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body{ 
+     background-image: url(../assents/ouroboros_GIF.gif);
+   
+    background-size: 10%;
+    background-position: center;
+}
+/* estilizaçao de tamanho; cor e fonte dos textos */
+
+main {
+    background-image: linear-gradient();
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #772b2b00;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+/* fonte do texto e tamanho */
+h1 {
+    font-size: 1.9em;
+    color: #99ca13;
+
+}
+/* estilização da área do jogo */
+canvas {
+   background-image: url(../assents/ouroboros.jpg);
+    background-color: #351f1f71;
+    align-items: center;
+    border: 10px solid #680148;
+    background-size: 1000px 530px;
+    background-position: center;
+    /* contain: 50px; */
+}
+
+/* estilização do score */
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #dbc4ff;
+
+}
+/* texto do score */
+.score--value {
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+/* estilo do texto do texto do menu game over*/
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #e22828;
+}
+/* informação final do score ao fim do jogo */
+.final-score {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #bb8c8c;
+}
+/* botão de inicio de jogo */
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #c2bf15;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+/* estilização do footer */
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #b10b0b00;
+    color: #9b1919;
+    min-width: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+/*
+*
+*/

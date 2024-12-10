@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="shortcut icon" href="/assents/gamepad.svg" type="image/x-icon">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="assents/style.css">
+</head>
+
+<body>
+ 
+  <main>
+    <h1>Snake Run</h1>
+    
+
+    <div class="score">Score: <span class="score--value">00</span></div>
+   
+
+<!--span serve para adicionarmos objetos mutáveis-->
+
+    <div class="menu-screen">
+      <!-- o código está demonstrando a quantidade de pontos e 
+       sinalizando o fim do jogo com a mensagem "Game Over-->
+      <span class="game-over">Até nisso você é ruim!!</span>
+      <span class="final-score">score <span>00</span></span>
+
+      <button class="btn-play">
+        <!-- botão utilizado para iniciar o jogo -->
+
+        <span class="material-symbols-outlined">
+          play_circle
+
+          <!--código questionando se o usuário deseja jogar novamente
+           com um botão para recomeçar o jogo-->
+        </span>
+        Jogar de Novo !?
+      </button>
+      </span>
+
+    </div>
+    <canvas width="600" height="600"></canvas> 
+    <!-- <img src="./assents/ouroboros.jpg" width="300" height="300"> -->
+    <!-- o canvas é utilizado para desehar a área do jogo-->
+  </main>
+
+    <footer>Desenvolvido por @Luis_fernado.junior</footer>
+  <!--<canvas width="600" height="400"></canvas>-->
+  <!--<canvas id="stage" width="600" height="600"></canvas>-->
+  <script src="assents/script.js"></script>
+
+</body>
+
+</html>
